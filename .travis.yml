@@ -22,10 +22,10 @@ script:
   - docker build -t udagram-reverseproxy ./udagram-reverseproxy
 
   # Tagging
-  - docker tag udagram-api-feed chiennh2/udagram-api-feed:0.1
-  - docker tag udagram-api-user chiennh2/udagram-api-user:0.1
-  - docker tag udagram-frontend chiennh2/udagram-frontend:0.1
-  - docker tag udagram-reverseproxy chiennh2/reverseproxy:0.1
+  - docker tag udagram-api-feed chiennh2/udagram-api-feed:v1
+  - docker tag udagram-api-user chiennh2/udagram-api-user:v1
+  - docker tag udagram-frontend chiennh2/udagram-frontend:v1
+  - docker tag udagram-reverseproxy chiennh2/reverseproxy:v1
 
 
 after_success:
